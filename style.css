@@ -93,8 +93,8 @@ nav ul li a:hover::after{
     font-size: 60px;
     font-weight: 600;
     color: #fff;
-
-
+    margin-bottom: 30px;
+    text-align: center;
 }
 .tab-titles{
     display: flex;
@@ -151,7 +151,7 @@ nav ul li a:hover::after{
     box-sizing: border-box;
 }
 /*-----services-----*/
-#services{
+#services, #Services, #Interests{
     padding: 30px 0;
 }
 .services-list{
@@ -189,7 +189,8 @@ nav ul li a:hover::after{
 }
 .services-list div:hover{
     background:#ff004f;
-    transform:scale(1.1);
+    transform:scale(1.05);
+    transition: all 0.3s ease;
 }
 /*-----portfolio-----*/
 #portfolio{
